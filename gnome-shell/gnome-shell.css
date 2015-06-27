@@ -49,7 +49,7 @@ stage {
 /* small bold */
 .dash-label,
 .window-caption,
-.switcher-list, 
+.switcher-list,
 .app-well-app > .overview-icon,
 .show-apps > .overview-icon,
 .grid-search-result .overview-icon {
@@ -160,6 +160,7 @@ StScrollBar StButton#vhandle:active {
 
 .popup-menu {
 	min-width: 200px;
+	padding: .5em 1em;
 }
 
 .popup-submenu-menu-item-triangle {
@@ -372,7 +373,7 @@ StScrollBar StButton#vhandle:active {
 .notification-icon-button:focus,
 .hotplug-notification-item:focus,
 .modal-dialog-button:focus {
-	border-color: rgba(0,0,0,0.5);	
+	border-color: rgba(0,0,0,0.5);
 }
 
 .app-view-control {
@@ -660,7 +661,7 @@ StScrollBar StButton#vhandle:active {
 	padding: 0;
 }
 
-#panel .unicode-arrow { 
+#panel .unicode-arrow {
 	font-size: 0;
 	width: 0;
 }
