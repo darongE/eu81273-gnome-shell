@@ -160,7 +160,7 @@ StScrollBar StButton#vhandle:active {
 
 .popup-menu {
 	min-width: 200px;
-	padding: .5em 1em;
+	padding: .5em .7em;
 }
 
 .popup-submenu-menu-item-triangle {
